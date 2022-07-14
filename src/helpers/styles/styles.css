@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;1,500&display=swap");
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.mainpage {
+  background-color: #c8dbff;
+}
+
+.overlays {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro .intro_head h2 {
+  margin: 0;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.intro .intro_head h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.intro .intro_head .intro_heading {
+  width: 90%;
+  margin-top: 30px;
+  padding: 15px;
+  border: 2px solid #317FEC;
+  border-radius: 12px;
+}
+
+.intro .intro_head .intro_heading h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.intro .intro_head .intro_heading h4 {
+  font-size: 14px;
+}
+
+.promo {
+  width: 100%;
+}
+
+.promo iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.who {
+  margin-top: 50px;
+}
+
+.who h2 {
+  margin: 0 0 30px 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.who .whom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.who .whom .whom_img {
+  margin-right: 50px;
+}
+
+.who .whom .whom_img img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.who .whom .whoms {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.who .whom .whoms .whom_number h3 {
+  margin: 0 30px 0 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 80px;
+  color: transparent;
+  -webkit-text-stroke: 3px blue;
+}
+
+.who .whom .whoms .whom_heading h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=styles.css.map */
